@@ -33,6 +33,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define MATRIX_EXPANDER_COL_PINS {0, 1, 2, 3, 4, 5, 6}
 #define MATRIX_EXPANDER_ROW_PINS {0, 1, 2, 3, 4, 5, 6}
 
+#define BOOTMAGIC_ROW    0
+#define BOOTMAGIC_COLUMN 13
+
 /* I2C config */
 #define I2C_TIMEOUT 100
 #define I2C_ADDR        (0b0100000<<1)
